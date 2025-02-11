@@ -7,4 +7,4 @@ services:
       # You downgrade the max number of workers by changing this value
       - MAX_WORKERS=2
     ports:
-      - 3000:3000 # You can choose any port you want
+      - 5123:5123 # You can choose any port you want

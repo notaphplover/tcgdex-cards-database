@@ -50,7 +50,7 @@ COPY --chown=bun:bun --from=build /usr/src/app/server/public ./public
 COPY --chown=bun:bun --from=build /usr/src/app/server/package.json ./package.json
 
 # Expose port
-EXPOSE 3000
+EXPOSE 5123
 
 # run it !
 CMD ["bun", "run", "start"]
