@@ -37,7 +37,7 @@ if (cluster.isPrimary) {
 	cluster.on("exit", (worker, code, _signal) => {
 		console.log(`Worker ${worker.id} exited with code ${code}`);
 	})
-	console.log('🚀 Server ready at localhost:3000');
+	console.log('🚀 Server ready at localhost:5123');
 } else {
 
 	// Current API version
@@ -130,5 +130,5 @@ if (cluster.isPrimary) {
 	})
 
 	// Start server
-	server.listen(3000)
+	server.listen(5123)
 }
