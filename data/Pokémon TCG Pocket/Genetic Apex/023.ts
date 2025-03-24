@@ -20,7 +20,7 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Stomp"
+			en: "Tropical Swing"
 		},
 
 		effect: {
@@ -30,6 +30,12 @@ const card: Card = {
 		damage: "40+"
 	}],
 	suffix: "EX",
+
+	weaknesses: [{
+		type: "Fire",
+		value: "+20"
+	}],
+
 	retreat: 3,
 	rarity: "Four Diamond"
 }

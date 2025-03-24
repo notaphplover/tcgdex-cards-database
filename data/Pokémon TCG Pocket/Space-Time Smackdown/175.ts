@@ -19,7 +19,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It is said that when one runs at high speed,<br />its wings create blades of wind that can fell<br />nearby trees."
+		en: "It is said that when one runs at high speed, its wings create blades of wind that can fell nearby trees."
 	},
 
 	stage: "Stage2",
@@ -43,11 +43,6 @@ const card: Card = {
 
 		damage: 100,
 		cost: ["Water", "Fighting"]
-	}],
-
-	weaknesses: [{
-		type: "Colorless",
-		value: "+20"
 	}],
 
 	retreat: 1
